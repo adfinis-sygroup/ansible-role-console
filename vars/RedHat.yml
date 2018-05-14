@@ -13,7 +13,6 @@ console_packages:
   - ftp
   - git
   - hdparm
-  - htop
   - iotop
   - iproute
   - iptables
