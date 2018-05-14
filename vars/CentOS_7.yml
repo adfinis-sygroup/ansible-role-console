@@ -1,0 +1,67 @@
+---
+
+# console packages
+# a list of default packages for every system
+console_packages:
+  - acl
+  - at
+  - bash-completion
+  - bind-utils
+  - bzip2
+  - dmidecode
+  - elinks
+  - ftp
+  - git
+  - hdparm
+  - iotop
+  - iproute
+  - iptables
+  - iptraf
+  - less
+  - lftp
+  - lsof
+  - lvm2
+  - mailx
+  - make
+  - man
+  - mc
+  - mlocate
+  - mutt
+  - net-tools
+  - nmap
+  - pciutils
+  - policycoreutils-python
+  - psmisc
+  - redhat-lsb-core
+  - rsync
+  - screen
+  - setools-console
+  - strace
+  - sysstat
+  - tar
+  - tcpdump
+  - telnet
+  - tmux
+  - unzip
+  - util-linux
+  - vim
+  - vim-enhanced
+  - wget
+  - yum-utils
+  - zip
+  - zsh
+
+# system bashrc
+console_bashrc: /etc/bashrc
+
+# system vimrc
+console_vimrc: /etc/vimrc
+
+# system gitconfig
+console_gitconfig: /etc/gitconfig
+
+# default editor
+console_editor_path: /usr/bin/vim
+
+# default editor link
+console_editor_link: /etc/alternatives/editor
