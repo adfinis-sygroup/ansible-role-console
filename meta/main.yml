@@ -3,6 +3,7 @@
 dependencies: []
 
 galaxy_info:
+  role_name: console
   author: 'Adfinis SyGroup AG'
   description: 'Install standard system tools and configure rc files'
   company: 'Adfinis SyGroup AG'
