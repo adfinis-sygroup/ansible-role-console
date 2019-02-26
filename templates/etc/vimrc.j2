@@ -75,3 +75,8 @@ set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.i
 
 " Enable modelines if there are some in files.
 set modeline
+
+{% if console_vim_backupcopy %}
+" make a copy of the file and overwrite the original one
+set backupcopy=yes
+{% endif %}
