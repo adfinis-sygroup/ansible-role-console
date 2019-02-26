@@ -1,0 +1,4 @@
+---
+
+# Set backupcopy default to no
+console_vim_backupcopy: ''
