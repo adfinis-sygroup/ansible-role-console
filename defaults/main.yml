@@ -2,3 +2,5 @@
 
 # Set backupcopy default to no
 console_vim_backupcopy: False
+# disable mouse support
+console_vim_mouse_enabled: False
