@@ -80,3 +80,7 @@ set modeline
 " make a copy of the file and overwrite the original one
 set backupcopy=yes
 {% endif %}
+
+{% if not console_vim_mouse_enabled %}
+set mouse=
+{% endif %}
