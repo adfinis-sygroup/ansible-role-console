@@ -5,3 +5,8 @@ console_vim_backupcopy: False
 
 # disable mouse support
 console_vim_mouse_enabled: False
+
+# Install packages from the EPEL as well:
+# XXX: This variable is defined (and set to a default) by ansible-role-epel,
+# therefore commented out here.
+#epel_repo_enabled_by_default: False

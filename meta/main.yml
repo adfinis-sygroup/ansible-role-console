@@ -1,6 +1,7 @@
 ---
 
-dependencies: []
+dependencies:
+  - role: adfinis-sygroup.epel
 
 galaxy_info:
   role_name: console

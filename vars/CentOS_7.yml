@@ -13,7 +13,6 @@ console_packages:
   - ftp
   - git
   - hdparm
-  - htop
   - iotop
   - iproute
   - iptables
@@ -51,6 +50,9 @@ console_packages:
   - yum-utils
   - zip
   - zsh
+
+console_packages_epel:
+  - htop
 
 # system bashrc
 console_bashrc: /etc/bashrc
