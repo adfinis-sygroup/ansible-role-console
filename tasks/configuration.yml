@@ -17,9 +17,6 @@
     serole: object_r
     setype: etc_t
     selevel: s0
-  tags:
-    - 'role::console'
-    - 'role::console:config'
 
 - name: configure vim
   template:
@@ -32,9 +29,6 @@
     serole: object_r
     setype: etc_t
     selevel: s0
-  tags:
-    - 'role::console'
-    - 'role::console:config'
 
 - name: configure git
   template:
@@ -47,6 +41,3 @@
     serole: object_r
     setype: etc_t
     selevel: s0
-  tags:
-    - 'role::console'
-    - 'role::console:config'
