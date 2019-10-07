@@ -4,6 +4,3 @@
   package:
     name: '{{ console_packages }}'
     state: present
-  tags:
-    - 'role::console'
-    - 'role::console:install'
