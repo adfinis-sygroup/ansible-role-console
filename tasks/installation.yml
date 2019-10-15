@@ -4,3 +4,21 @@
   package:
     name: '{{ console_packages }}'
     state: present
+  tags:
+    - 'role::console'
+    - 'role::console:install'
+
+- name: install console related packages from epel repositories
+  package:
+    name: '{{ console_packages_epel }}'
+    state: present
+  tags:
+    - 'role::console'
+    - 'role::console:install'
+  when: epel_repo_enabled_by_default
+  # This may show a deprecation warning about bare variables on some versions of
+  # Ansible.
+  # It is a bug that was introduced in Ansible 2.8, and fixed in Ansible 2.8.2.
+  # Bug report:  https://github.com/ansible/ansible/issues/53428
+  # Bugfix MR:   https://github.com/ansible/ansible/pull/57190
+  # Backport MR: https://github.com/ansible/ansible/pull/57329
