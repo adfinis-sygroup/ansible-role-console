@@ -19,7 +19,7 @@ console_packages:
   - htop
   - hwinfo
   - iotop
-  - iproute
+  - iproute2
   - iptables
   - iptraf
   - ldap-utils
