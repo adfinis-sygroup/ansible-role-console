@@ -49,7 +49,6 @@ console_packages:
   - tcpdump
   - telnet
   - tmux
-  - tshark
   - unzip
   - util-linux
   - vim
