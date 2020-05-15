@@ -80,3 +80,7 @@ set modeline
 " make a copy of the file and overwrite the original one
 set backupcopy=yes
 {% endif %}
+{% if console_vim_mouse_disable | d(True) and ansible_os_family == 'Debian' %}
+let skip_defaults_vim = 1
+set mouse=
+{% endif %}

@@ -21,8 +21,8 @@ The following defaults variables can be configured:
 # Set backupcopy default to no
 console_vim_backupcopy: False
 
-# disable mouse support
-console_vim_mouse_enabled: False
+# disable mouse support (Only Debian)
+console_vim_mouse_disable: True
 ```
 
 For a list OS related variables that usually don't need to be customized have a
